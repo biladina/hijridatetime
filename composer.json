@@ -1,8 +1,8 @@
 {
-    "name": "biladina/yii2-hijridatetime",
-    "description": "Hijri Date Time - Yii2 Extension for using Hijri date time, compatible with 'Umm al-Qura' formal calendar in Saudi Arabia and the Muslim world",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","hijridatetime","hijri","hijriyah"],
+    "name": "biladina/hijridatetime",
+    "description": "Hijri Date Time - Library for using Hijri date time, compatible with 'Umm al-Qura' formal calendar in Saudi Arabia and the Muslim world",
+    "type": "library",
+    "keywords": ["library","hijridatetime","hijri","hijriyah"],
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -21,9 +21,7 @@
             "homepage": "http://nabilmunawar.wordpress.com"
         }
     ],
-    "require": {
-        "yiisoft/yii2": "~2.0.0"
-    },
+    "require": {},
     "autoload": {
         "psr-4": {
             "biladina\\hijridatetime\\": ""
