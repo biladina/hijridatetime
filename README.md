@@ -51,10 +51,10 @@ $hijri->date("H:i A l, d F Y", time()) // formatting is like date function
 //---------------- Or ---------------------
 $hijri->date("H:i A l, d F Y", time(), "fr")
 // will return in France language
-// will return 16:16 PM jeudi, 01 Ramadan 1441
+// will return 16:16 PM vendredi, 01 Ramadan 1441
 
 $hijri->GeToHijr(20, 02, 1976)
-// will return Array Hijri date[int month, int day, int year]
+// will return Array Hijri date[int month, int day, int year, int ln, int ml]
 
 $hijri->strToHijri("24 April 2020")
 // will return a Date in Hijri d-m-Y if not formated
@@ -65,7 +65,7 @@ $hijri->strToHijri("24 April 2020 15:00:00", "l, d F Y H:i A")
 //-------- Or -----------
 $hijri->strToHijri("24 April 2020 15:00:00", "l, d F Y H:i A", "fr")
 // will return in France language
-// will return a Date in Hijri as formated like jeudi, 01 Ramadan 1441 15:00 PM
+// will return a Date in Hijri as formated like vendredi, 01 Ramadan 1441 15:00 PM
 
 ```
 
