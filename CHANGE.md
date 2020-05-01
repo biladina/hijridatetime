@@ -1,4 +1,4 @@
-Change Log: `yii2-hijridatetime`
+Change Log: `hijridatetime`
 =========================
 
 **Date:** 24-Apr-2020
