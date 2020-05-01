@@ -6,7 +6,7 @@ It support Arabic, English, France, and Indonesia languages.
 
 The original source [here](https://www.yiiframework.com/extension/hijridatetime)
 
-Extension for Yii2 Framework available [here]()
+Extension for Yii2 Framework available [here](https://github.com/biladina/yii2-hijridatetime)
 
 Installation
 ------------
@@ -71,8 +71,8 @@ $hijri->strToHijri("24 April 2020 15:00:00", "l, d F Y H:i A", "fr")
 
 
 If you want to add more language :
-..* open 'language' directory
-..* copy one of directory in it (I prefer 'en' directory) and rename with initial of your country, like 'ms' for Malaysia, 'de' for Deutch (Germany)
-..* open 'hijri.php' file in the renamed directory
-..* translate to your languange
-..* create PR, I will combine to main project
+* open 'language' directory
+* copy one of directory in it (I prefer 'en' directory) and rename with initial of your country, like 'ms' for Malaysia, 'de' for Deutch (Germany)
+* open 'hijri.php' file in the renamed directory
+* translate to your languange
+* create PR, I will combine to main project
