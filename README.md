@@ -1,6 +1,6 @@
 Hijri Date Time
 ==================
-Hijri Date Time extension is a convenient and complete solution for users who want to use Hijri date in their projects and convert Gregorian calendar to Hijri (Islamic) calendar. This extensions is 100% compatible with "Umm al-Qura" formal calendar in Saudi Arabia and the Muslim world.
+Hijri Date Time library is a convenient and complete solution for users who want to use Hijri date in their projects and convert Gregorian calendar to Hijri (Islamic) calendar. This library is 100% compatible with "Umm al-Qura" formal calendar in Saudi Arabia and the Muslim world.
 
 It support Arabic, English, France, and Indonesia languages.
 
@@ -11,7 +11,7 @@ Extension for Yii2 Framework available [here](https://github.com/biladina/yii2-h
 Installation
 ------------
 
-The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+The preferred way to install this library is through [composer](http://getcomposer.org/download/).
 
 Just run
 
@@ -22,7 +22,7 @@ composer require biladina/hijridatetime
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the library is installed, simply use it in your code by  :
 
 ```php
 <?php
