@@ -152,7 +152,7 @@ class HijriDateTime
         {
             list ($d, $m, $Y) = explode("/", date("d/m/Y", strtotime($strDate)));
             extract($this->GeToHijr($d, $m, $Y));
-            $date = "$day-$month-$year";
+            $date = sprintf("%02d", $day)."-".sprintf("%02d", $month)."-$year";
         }
         else
         {
