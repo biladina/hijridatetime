@@ -1,6 +1,10 @@
 Change Log: `hijridatetime`
 =========================
 
+**Date:** 31-Jul-2024
+
+- fix different output format with input format #1
+
 **Date:** 24-Apr-2020
 
 - Add construct code for initialize translation (Nabil Munawar)
